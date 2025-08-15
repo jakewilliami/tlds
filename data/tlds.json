@@ -470,7 +470,7 @@
   ".asda": {
     "Domain": ".asda",
     "Type": "generic",
-    "Manager": "Wal-Mart Stores, Inc.",
+    "Manager": "Asda Stores Limited",
     "Country": ""
   },
   ".asia": {
@@ -770,7 +770,7 @@
   ".bentley": {
     "Domain": ".bentley",
     "Type": "generic",
-    "Manager": "Bentley Motors Limited",
+    "Manager": "Not assigned",
     "Country": ""
   },
   ".berlin": {
@@ -1898,7 +1898,7 @@
   ".cu": {
     "Domain": ".cu",
     "Type": "country-code",
-    "Manager": "CENIAInternet\nIndustria y San Jose\nCapitolio Nacional",
+    "Manager": "CENIAInternet",
     "Country": "Cuba"
   },
   ".cuisinella": {
@@ -1952,7 +1952,7 @@
   ".dabur": {
     "Domain": ".dabur",
     "Type": "generic",
-    "Manager": "Dabur India Limited",
+    "Manager": "Not assigned",
     "Country": ""
   },
   ".dad": {
@@ -2379,6 +2379,12 @@
     "Domain": ".emerck",
     "Type": "generic",
     "Manager": "Merck KGaA",
+    "Country": ""
+  },
+  ".emerson": {
+    "Domain": ".emerson",
+    "Type": "generic",
+    "Manager": "Not assigned",
     "Country": ""
   },
   ".energy": {
@@ -3884,7 +3890,7 @@
   ".is": {
     "Domain": ".is",
     "Type": "country-code",
-    "Manager": "ISNIC - Internet Iceland ltd.",
+    "Manager": "ISNIC - Internet á Íslandi hf.",
     "Country": "Iceland"
   },
   ".iselect": {
@@ -4112,7 +4118,7 @@
   ".kerrylogistics": {
     "Domain": ".kerrylogistics",
     "Type": "generic",
-    "Manager": "Kerry Trading Co. Limited",
+    "Manager": "Not assigned",
     "Country": ""
   },
   ".kerryproperties": {
@@ -4316,7 +4322,7 @@
   ".lancaster": {
     "Domain": ".lancaster",
     "Type": "generic",
-    "Manager": "LANCASTER",
+    "Manager": "Not assigned",
     "Country": ""
   },
   ".lancia": {
@@ -4532,7 +4538,7 @@
   ".lipsy": {
     "Domain": ".lipsy",
     "Type": "generic",
-    "Manager": "Lipsy Ltd",
+    "Manager": "Not assigned",
     "Country": ""
   },
   ".live": {
@@ -4754,7 +4760,7 @@
   ".man": {
     "Domain": ".man",
     "Type": "generic",
-    "Manager": "MAN SE",
+    "Manager": "MAN Truck \u0026 Bus SE",
     "Country": ""
   },
   ".management": {
@@ -4814,7 +4820,7 @@
   ".mattel": {
     "Domain": ".mattel",
     "Type": "generic",
-    "Manager": "Mattel Sites, Inc.",
+    "Manager": "Mattel IT Services, Inc.",
     "Country": ""
   },
   ".mba": {
@@ -5240,7 +5246,7 @@
   ".mv": {
     "Domain": ".mv",
     "Type": "country-code",
-    "Manager": "Dhiraagu Pvt. Ltd. (DHIVEHINET)",
+    "Manager": "Dhivehi Raajjeyge Gulhun PLC",
     "Country": "Maldives"
   },
   ".mw": {
@@ -5438,7 +5444,7 @@
   ".ni": {
     "Domain": ".ni",
     "Type": "country-code",
-    "Manager": "Universidad Nacional del Ingernieria\nCentro de Computo",
+    "Manager": "Universidad Nacional del Ingernieria. Division de Tecnologias de la Informacion.",
     "Country": "Nicaragua"
   },
   ".nico": {
@@ -5504,7 +5510,7 @@
   ".norton": {
     "Domain": ".norton",
     "Type": "generic",
-    "Manager": "Symantec Corporation",
+    "Manager": "Gen Digital Inc.",
     "Country": ""
   },
   ".now": {
@@ -5660,7 +5666,7 @@
   ".online": {
     "Domain": ".online",
     "Type": "generic",
-    "Manager": "Radix Technologies Inc.",
+    "Manager": "Radix Technologies Inc. SEZC",
     "Country": ""
   },
   ".onyourside": {
@@ -5918,7 +5924,7 @@
   ".pictet": {
     "Domain": ".pictet",
     "Type": "generic",
-    "Manager": "Pictet Europe S.A.",
+    "Manager": "Banque Pictet \u0026 Cie SA",
     "Country": ""
   },
   ".pictures": {
@@ -6062,7 +6068,7 @@
   ".pramerica": {
     "Domain": ".pramerica",
     "Type": "generic",
-    "Manager": "Prudential Financial, Inc.",
+    "Manager": "Not assigned",
     "Country": ""
   },
   ".praxi": {
@@ -6938,7 +6944,7 @@
   ".site": {
     "Domain": ".site",
     "Type": "generic",
-    "Manager": "Radix Technologies Inc.",
+    "Manager": "Radix Technologies Inc. SEZC",
     "Country": ""
   },
   ".sj": {
@@ -6968,7 +6974,7 @@
   ".sky": {
     "Domain": ".sky",
     "Type": "generic",
-    "Manager": "Sky International AG",
+    "Manager": "Sky UK Limited",
     "Country": ""
   },
   ".skype": {
@@ -8432,7 +8438,7 @@
   ".yandex": {
     "Domain": ".yandex",
     "Type": "generic",
-    "Manager": "Yandex Europe B.V.",
+    "Manager": "YANDEX LLC",
     "Country": ""
   },
   ".ye": {
@@ -9008,7 +9014,7 @@
   ".在线": {
     "Domain": ".在线",
     "Type": "generic",
-    "Manager": "TLD REGISTRY LIMITED",
+    "Manager": "Beijing Tld Registry Technology Limited",
     "Country": ""
   },
   ".大众汽车": {
