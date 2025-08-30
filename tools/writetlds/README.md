@@ -15,6 +15,6 @@ $ go run tools/writetlds/writetlds.go const
 [INFO] found table [columns [Domain Type TLD Manager] count 1591]
 [INFO] found table [columns [Domain Names Root Zone Registry.INT Registry.ARPA RegistryIDN Repository] count 3]
 [WARNING] Skipped 169 non-unicode domain name(s)
-[INFO] Wrote 233763 bytes to "~/projects/tldinfo/tldconsts.go"
+[INFO] Wrote 233763 bytes to "~/projects/tldinfo/consts.go"
 [INFO] Successfully ran `go fmt` on output file "~/projects/tldinfo/tldconsts.go"
 ```

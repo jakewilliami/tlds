@@ -163,7 +163,7 @@ func main() {
 	if writeMode == "const" {
 		pkgName := "tldinfo"
 		dataMapName := "TLDInfoMap"
-		outFile := filepath.Join(rootpath, "tldconsts.go")
+		outFile := filepath.Join(rootpath, "consts.go")
 
 		file, err := os.Create(outFile)
 		if err != nil {
