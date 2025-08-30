@@ -1,7 +1,7 @@
 We want to check which ccTLDs have no associated country information (so that we can investigate why).
 
 ```bash
-$ go run tools/cctldmissing/cctldmissing.go
+$ go run tools/cctldmissing/main.go
 [INFO] found table [columns [Domain Type TLD Manager] count 1591]
 [INFO] found table [columns [Domain Names Root Zone Registry.INT Registry.ARPA RegistryIDN Repository] count 3]
 [WARNING] Count not find country information associated with ccTLD ".ac"
