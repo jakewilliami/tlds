@@ -28,7 +28,7 @@ func main() {
 	if tldStr[0] != '.' {
 		tldStr = "." + tldStr
 	}
-	tld := tlds.TLDMap[tldStr]
+	tld := tlds.Map[tldStr]
 	country := tld.Country
 	fmt.Printf("%v\n", country)
 }

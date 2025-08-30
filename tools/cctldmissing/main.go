@@ -14,9 +14,9 @@ import (
 )
 
 type TLD struct {
-	Domain  string       `header:"Domain"`
-	Type    tlds.TLDType `header:"Type"`
-	Manager string       `header:"TLD Manager"`
+	Domain  string    `header:"Domain"`
+	Type    tlds.Type `header:"Type"`
+	Manager string    `header:"TLD Manager"`
 }
 
 func isASCII(s string) bool {

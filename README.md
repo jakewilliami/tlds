@@ -26,7 +26,7 @@ import (
 )
 
 func main() {
-	tld := tlds.TLDMap[".jp"]
+	tld := tlds.Map[".jp"]
 	country := tld.Country
 	fmt.Printf("%v\n", country)  // Japan
 }

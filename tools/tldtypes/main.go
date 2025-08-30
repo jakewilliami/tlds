@@ -13,15 +13,15 @@ import (
 	"github.com/jakewilliami/tlds"
 )
 
-type TLDTypeCount struct {
-	Type  tlds.TLDType
+type TypeCount struct {
+	Type  tlds.Type
 	Count int
 }
 
 type TLD struct {
-	Domain  string       `header:"Domain"`
-	Type    tlds.TLDType `header:"Type"`
-	Manager string       `header:"TLD Manager"`
+	Domain  string    `header:"Domain"`
+	Type    tlds.Type `header:"Type"`
+	Manager string    `header:"TLD Manager"`
 }
 
 func main() {
@@ -36,17 +36,17 @@ func main() {
 		os.Exit(1)
 	}
 
-	countMap := make(map[tlds.TLDType]int, len(table))
+	countMap := make(map[tlds.Type]int, len(table))
 	for i := 0; i < len(table); i++ {
 		tld := table[i]
 		countMap[tld.Type]++
 	}
 	fmt.Printf("[INFO] Found %d unique TLD types from %d\n", len(countMap), len(table))
 
-	typeCounts := make([]TLDTypeCount, len(countMap))
+	typeCounts := make([]TypeCount, len(countMap))
 	i := 0
 	for t, n := range countMap {
-		typeCounts[i] = TLDTypeCount{Type: t, Count: n}
+		typeCounts[i] = TypeCount{Type: t, Count: n}
 		i++
 	}
 

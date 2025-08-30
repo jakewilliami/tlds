@@ -31,9 +31,9 @@ var (
 )
 
 type TLD struct {
-	Domain  string       `header:"Domain"`
-	Type    tlds.TLDType `header:"Type"`
-	Manager string       `header:"TLD Manager"`
+	Domain  string    `header:"Domain"`
+	Type    tlds.Type `header:"Type"`
+	Manager string    `header:"TLD Manager"`
 }
 
 type TLDKeyVal struct {
@@ -41,10 +41,10 @@ type TLDKeyVal struct {
 	Val tlds.TLD
 }
 
-type OrderedTLDMap []TLDKeyVal
+type OrderedMap []TLDKeyVal
 
 // https://stackoverflow.com/a/30673838
-func (omap OrderedTLDMap) MarshalJSON() ([]byte, error) {
+func (omap OrderedMap) MarshalJSON() ([]byte, error) {
 	var buf bytes.Buffer
 
 	buf.WriteString("{")
@@ -142,7 +142,7 @@ func main() {
 	}
 	sort.Strings(dataKeyVec)
 
-	data := make(OrderedTLDMap, len(dataKeyVec))
+	data := make(OrderedMap, len(dataKeyVec))
 	for i, key := range dataKeyVec {
 		data[i] = TLDKeyVal{key, dataMap[key]}
 	}
@@ -162,7 +162,7 @@ func main() {
 
 	if writeMode == "const" {
 		pkgName := "tlds"
-		dataMapName := "TLDMap"
+		dataMapName := "Map"
 		outFile := filepath.Join(rootpath, "consts.go")
 
 		file, err := os.Create(outFile)
