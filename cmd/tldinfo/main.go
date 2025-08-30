@@ -7,7 +7,7 @@ import (
 	"path/filepath"
 	"runtime"
 
-	"github.com/jakewilliami/tldinfo"
+	"github.com/jakewilliami/tlds"
 )
 
 // https://stackoverflow.com/a/38644571
@@ -28,7 +28,7 @@ func main() {
 	if tldStr[0] != '.' {
 		tldStr = "." + tldStr
 	}
-	tld := tldinfo.TLDInfoMap[tldStr]
+	tld := tlds.TLDMap[tldStr]
 	country := tld.Country
 	fmt.Printf("%v\n", country)
 }
@@ -43,7 +43,7 @@ func _mainJSON() {
 	defer file.Close()
 
 	decoder := json.NewDecoder(file)
-	tlds := make(map[string]tldinfo.TLD)
+	tlds := make(map[string]tlds.TLD)
 	err = decoder.Decode(&tlds)
 
 	if err != nil {

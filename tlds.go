@@ -1,4 +1,4 @@
-package tldinfo
+package tlds
 
 // Generate new const library file with go generate
 //

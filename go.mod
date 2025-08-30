@@ -1,4 +1,4 @@
-module github.com/jakewilliami/tldinfo
+module github.com/jakewilliami/tlds
 
 go 1.21
 

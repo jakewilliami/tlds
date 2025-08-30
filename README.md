@@ -1,6 +1,8 @@
-<h1 align="center">TLD Info</h1>
+<h1 align="center">Serialised TLDs in Go</h1>
 
-A small command-line tool to provide basic information about a top-level domain (TLD).
+A small library that provides serialised basic information about top level domains (TLDs).
+
+An additional command-line utility, `tldinfo`, is provided.
 
 ---
 
@@ -10,7 +12,7 @@ A small command-line tool to provide basic information about a top-level domain 
 
 Get the module:
 ```bash
-$ go get github.com/jakewilliami/tldinfo
+$ go get github.com/jakewilliami/tlds
 ```
 
 Basic library usage:
@@ -20,11 +22,11 @@ package main
 import (
 	"fmt"
 
-	"github.com/jakewilliami/tldinfo"
+	"github.com/jakewilliami/tlds"
 )
 
 func main() {
-	tld := tldinfo.TLDInfoMap[".jp"]
+	tld := tlds.TLDMap[".jp"]
 	country := tld.Country
 	fmt.Printf("%v\n", country)  // Japan
 }
@@ -33,19 +35,19 @@ func main() {
 Types:
 ```go
 type TLD struct {
-        Domain  string
-        Type    TLDType
-        Manager string
-        Country string
+	Domain  string
+	Type    TLDType
+	Manager string
+	Country string
 }
 
 const (
-        Generic           TLDType = "generic"
-        CountryCode       TLDType = "country-code"
-        Sponsored         TLDType = "sponsored"
-        Test              TLDType = "test"
-        GenericRestricted TLDType = "generic-restricted"
-        Infrastructure    TLDType = "infrastructure"
+	Generic           TLDType = "generic"
+	CountryCode       TLDType = "country-code"
+	Sponsored         TLDType = "sponsored"
+	Test              TLDType = "test"
+	GenericRestricted TLDType = "generic-restricted"
+	Infrastructure    TLDType = "infrastructure"
 )
 ```
 
@@ -65,7 +67,11 @@ $ ./tldinfo -h  # help command coming soon™!
 
 ## Similar Projects
 
-This library/CLI is **not** a top-level domain parser.  For parsers, see [`github.com/jpillora/go-tld`](https://github.com/jpillora/go-tld)/[`golang.org/x/net/publicsuffix`](https://pkg.go.dev/golang.org/x/net/publicsuffix)/[`github.com/bobesa/go-domain-util`](https://github.com/bobesa/go-domain-util).  It is more similar to a top-level domain *validator* such as [`github.com/bombsimon/tld-validator`](https://github.com/bombsimon/tld-validator), which looks like a very good project, even with unicode support using the [`golang.org/x/net` IDNA submodule](https://pkg.go.dev/golang.org/x/net/idna).  Simon's TLD validator even generates a constant/static list of TLDs for library/offline use.  However, this package does not retain any of the other TLD information [defined by the IANA](https://www.iana.org/domains/root/db) as it pulls from [a different source](https://data.iana.org/TLD/tlds-alpha-by-domain.txt) to us.  Ultimately, Simon's TLD validator provides a different functionality to ours, but I really recommend checking it out as it seems to be well-written and you may be after simple validation, in which case [`tld-validator`](https://github.com/bombsimon/tld-validator) may be the best package for you.
+This library/CLI is **not** a top-level domain parser.  For parsers, see [`github.com/jpillora/go-tld`](https://github.com/jpillora/go-tld)/[`golang.org/x/net/publicsuffix`](https://pkg.go.dev/golang.org/x/net/publicsuffix)/[`github.com/bobesa/go-domain-util`](https://github.com/bobesa/go-domain-util).
+
+This project is more similar to a top-level domain *validator* such as [`github.com/bombsimon/tld-validator`](https://github.com/bombsimon/tld-validator), which looks like a very good project, even with unicode support using the [`golang.org/x/net` IDNA submodule](https://pkg.go.dev/golang.org/x/net/idna).  Simon's TLD validator even generates a constant/static list of TLDs for library/offline use.  However, this package does not retain any of the other TLD information [defined by the IANA](https://www.iana.org/domains/root/db) as it pulls from [a different source](https://data.iana.org/TLD/tlds-alpha-by-domain.txt) to us.  Ultimately, Simon's TLD validator provides a different functionality to ours, but I really recommend checking it out as it seems to be well-written and you may be after simple validation, in which case [`tld-validator`](https://github.com/bombsimon/tld-validator) may be the best package for you.
+
+Another tool that deals with ISO-3166 in a much broader scope is [`github.com/biter777/countries`](https://github.com/biter777/countries).  It primarily deals with country codes, but also has support for country codes.
 
 ## Caveats
 
@@ -78,4 +84,4 @@ Library files are in the root directory.  Command-line tools are in the `cmd/` s
 
 ## Citation
 
-If your research depends on `tldinfo`, please consider giving us a formal citation: [`citation.bib`](./citation.bib)
+If your research depends on `tlds`, please consider giving us a formal citation: [`citation.bib`](./citation.bib)
