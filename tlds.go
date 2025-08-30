@@ -12,20 +12,20 @@ package tlds
 
 // TLD types
 // https://stackoverflow.com/a/71934535/
-type TLDType string
+type Type string
 
 const (
-	Generic           TLDType = "generic"
-	CountryCode       TLDType = "country-code"
-	Sponsored         TLDType = "sponsored"
-	Test              TLDType = "test"
-	GenericRestricted TLDType = "generic-restricted"
-	Infrastructure    TLDType = "infrastructure"
+	Generic           Type = "generic"
+	CountryCode       Type = "country-code"
+	Sponsored         Type = "sponsored"
+	Test              Type = "test"
+	GenericRestricted Type = "generic-restricted"
+	Infrastructure    Type = "infrastructure"
 )
 
 type TLD struct {
 	Domain  string
-	Type    TLDType
+	Type    Type
 	Manager string
 	Country string
 }
