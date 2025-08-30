@@ -19,9 +19,9 @@ type TLDTypeCount struct {
 }
 
 type TLD struct {
-	Domain  string          `header:"Domain"`
+	Domain  string       `header:"Domain"`
 	Type    tlds.TLDType `header:"Type"`
-	Manager string          `header:"TLD Manager"`
+	Manager string       `header:"TLD Manager"`
 }
 
 func main() {
