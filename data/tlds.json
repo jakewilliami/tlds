@@ -362,7 +362,7 @@
   ".anquan": {
     "Domain": ".anquan",
     "Type": "generic",
-    "Manager": "QIHOO 360 TECHNOLOGY CO. LTD.",
+    "Manager": "Beijing Qihu Keji Co., Ltd.",
     "Country": ""
   },
   ".anz": {
@@ -602,7 +602,7 @@
   ".ba": {
     "Domain": ".ba",
     "Type": "country-code",
-    "Manager": "Universtiy Telinformatic Centre (UTIC)",
+    "Manager": "University Tele-Informatic Center (UTIC)",
     "Country": "Bosnia and Herzegovina"
   },
   ".baby": {
@@ -1226,7 +1226,7 @@
   ".cam": {
     "Domain": ".cam",
     "Type": "generic",
-    "Manager": "CAM Connecting SARL",
+    "Manager": "CAM Connecting SarL",
     "Country": ""
   },
   ".camera": {
@@ -1394,7 +1394,7 @@
   ".cc": {
     "Domain": ".cc",
     "Type": "country-code",
-    "Manager": "eNIC Cocos (Keeling) Islands Pty.\nLtd. d/b/a Island Internet Services",
+    "Manager": "eNIC Cocos (Keeling) Islands Pty. Ltd. d/b/a Island Internet Services",
     "Country": "Cocos (Keeling) Islands"
   },
   ".cd": {
@@ -1838,7 +1838,7 @@
   ".cr": {
     "Domain": ".cr",
     "Type": "country-code",
-    "Manager": "National Academy of Sciences\nAcademia Nacional de Ciencias",
+    "Manager": "National Academy of Sciences (Academia Nacional de Ciencias)",
     "Country": "Costa Rica"
   },
   ".credit": {
@@ -2186,7 +2186,7 @@
   ".do": {
     "Domain": ".do",
     "Type": "country-code",
-    "Manager": "Pontificia Universidad Catolica Madre y Maestra\nRecinto Santo Tomas de Aquino",
+    "Manager": "Pontificia Universidad Catolica Madre y Maestra, Recinto Santo Tomas de Aquino",
     "Country": "Dominican Republic"
   },
   ".docs": {
@@ -2270,7 +2270,7 @@
   ".dunlop": {
     "Domain": ".dunlop",
     "Type": "generic",
-    "Manager": "The Goodyear Tire \u0026 Rubber Company",
+    "Manager": "Not assigned",
     "Country": ""
   },
   ".duns": {
@@ -2360,7 +2360,7 @@
   ".eg": {
     "Domain": ".eg",
     "Type": "country-code",
-    "Manager": "Egyptian Universities Network (EUN)\nSupreme Council of Universities",
+    "Manager": "Egyptian Universities Network (EUN), Supreme Council of Universities",
     "Country": "Egypt"
   },
   ".eh": {
@@ -2486,7 +2486,7 @@
   ".eu": {
     "Domain": ".eu",
     "Type": "country-code",
-    "Manager": "EURid vzw/asbl",
+    "Manager": "EURid vzw",
     "Country": ""
   },
   ".eurovision": {
@@ -3038,7 +3038,7 @@
   ".gent": {
     "Domain": ".gent",
     "Type": "generic",
-    "Manager": "Combell nv",
+    "Manager": "Easyhost bv",
     "Country": ""
   },
   ".genting": {
@@ -3206,7 +3206,7 @@
   ".goo": {
     "Domain": ".goo",
     "Type": "generic",
-    "Manager": "NTT Resonant Inc.",
+    "Manager": "Not assigned",
     "Country": ""
   },
   ".goodhands": {
@@ -3704,7 +3704,7 @@
   ".ie": {
     "Domain": ".ie",
     "Type": "country-code",
-    "Manager": "University College Dublin\nComputing Services\nComputer Centre",
+    "Manager": "University College Dublin, Computing Services, Computer Centre",
     "Country": "Ireland"
   },
   ".ieee": {
@@ -4292,7 +4292,7 @@
   ".la": {
     "Domain": ".la",
     "Type": "country-code",
-    "Manager": "Lao National Internet Center (LANIC),\nMinistry of Technology and Communications",
+    "Manager": "Lao National Internet Center (LANIC), Ministry of Technology and Communications",
     "Country": "Lao People`s Democratic Republic"
   },
   ".lacaixa": {
@@ -4712,13 +4712,13 @@
   ".lv": {
     "Domain": ".lv",
     "Type": "country-code",
-    "Manager": "University of Latvia\nInstitute of Mathematics and Computer Science\nDepartment of Network Solutions (DNS)",
+    "Manager": "University of Latvia, Institute of Mathematics and Computer Science, Department of Network Solutions (DNS)",
     "Country": "Latvia"
   },
   ".ly": {
     "Domain": ".ly",
     "Type": "country-code",
-    "Manager": "General Post and Telecommunication Company",
+    "Manager": "General Authority of Communications and Informatics (GACI)",
     "Country": "Libyan Arab Jamahiriya"
   },
   ".ma": {
@@ -4917,6 +4917,12 @@
     "Domain": ".meo",
     "Type": "generic",
     "Manager": "Not assigned",
+    "Country": ""
+  },
+  ".merck": {
+    "Domain": ".merck",
+    "Type": "generic",
+    "Manager": "Merck Registry Holdings, Inc.",
     "Country": ""
   },
   ".merckmsd": {
@@ -5252,7 +5258,7 @@
   ".mw": {
     "Domain": ".mw",
     "Type": "country-code",
-    "Manager": "Malawi Sustainable Development Network Programme\n(Malawi SDNP)",
+    "Manager": "Malawi Sustainable Development Network Programme (Malawi SDNP)",
     "Country": "Malawi"
   },
   ".mx": {
@@ -5546,7 +5552,7 @@
   ".nra": {
     "Domain": ".nra",
     "Type": "generic",
-    "Manager": "NRA Holdings Company, INC.",
+    "Manager": "National Rifle Association of America",
     "Country": ""
   },
   ".nrw": {
@@ -5660,7 +5666,7 @@
   ".onl": {
     "Domain": ".onl",
     "Type": "generic",
-    "Manager": "iRegistry GmbH",
+    "Manager": "Jolly Host, LLC",
     "Country": ""
   },
   ".online": {
@@ -5852,7 +5858,7 @@
   ".pg": {
     "Domain": ".pg",
     "Type": "country-code",
-    "Manager": "PNG DNS Administration\nVice Chancellors Office\nThe Papua New Guinea University of Technology",
+    "Manager": "PNG DNS Administration, Vice Chancellors Office, The Papua New Guinea University of Technology",
     "Country": "Papua New Guinea"
   },
   ".ph": {
@@ -6158,7 +6164,7 @@
   ".ps": {
     "Domain": ".ps",
     "Type": "country-code",
-    "Manager": "Ministry Of Telecommunications \u0026\nInformation Technology,\nGovernment Computer Center.",
+    "Manager": "Ministry of Telecommunications \u0026 Information Technology, Government Computer Center",
     "Country": "Palestinian Territory (Occupied)"
   },
   ".pt": {
@@ -6230,7 +6236,7 @@
   ".radio": {
     "Domain": ".radio",
     "Type": "generic",
-    "Manager": "European Broadcasting Union (EBU)",
+    "Manager": "Digity, LLC",
     "Country": ""
   },
   ".raid": {
@@ -6284,7 +6290,7 @@
   ".redstone": {
     "Domain": ".redstone",
     "Type": "generic",
-    "Manager": "Redstone Haute Couture Co., Ltd.",
+    "Manager": "Not assigned",
     "Country": ""
   },
   ".redumbrella": {
@@ -6896,7 +6902,7 @@
   ".shouji": {
     "Domain": ".shouji",
     "Type": "generic",
-    "Manager": "QIHOO 360 TECHNOLOGY CO. LTD.",
+    "Manager": "Beijing Qihu Keji Co., Ltd.",
     "Country": ""
   },
   ".show": {
@@ -7256,7 +7262,7 @@
   ".su": {
     "Domain": ".su",
     "Type": "country-code",
-    "Manager": "Russian Institute for Development of Public Networks\n(ROSNIIROS)",
+    "Manager": "Russian Institute for Development of Public Networks (ROSNIIROS)",
     "Country": ""
   },
   ".sucks": {
@@ -7334,7 +7340,7 @@
   ".sy": {
     "Domain": ".sy",
     "Type": "country-code",
-    "Manager": "National Agency for Network Services (NANS)",
+    "Manager": "National Authority for Information Technology Services (NAITS)",
     "Country": "Syrian Arab Republic"
   },
   ".sydney": {
@@ -7634,7 +7640,7 @@
   ".to": {
     "Domain": ".to",
     "Type": "country-code",
-    "Manager": "Government of the Kingdom of Tonga\nH.R.H. Crown Prince Tupouto'a\nc/o Consulate of Tonga",
+    "Manager": "Government of the Kingdom of Tonga, H.R.H. Crown Prince Tupouto'a, c/o Consulate of Tonga",
     "Country": "Tonga"
   },
   ".today": {
@@ -7658,7 +7664,7 @@
   ".top": {
     "Domain": ".top",
     "Type": "generic",
-    "Manager": ".TOP Registry",
+    "Manager": "Hong Kong Zhongze International Limited",
     "Country": ""
   },
   ".toray": {
@@ -7772,7 +7778,7 @@
   ".tt": {
     "Domain": ".tt",
     "Type": "country-code",
-    "Manager": "University of the West Indies\nFaculty of Engineering",
+    "Manager": "University of the West Indies, Faculty of Engineering",
     "Country": "Trinidad and Tobago"
   },
   ".tube": {
@@ -7802,7 +7808,7 @@
   ".tv": {
     "Domain": ".tv",
     "Type": "country-code",
-    "Manager": "Ministry of Justice, Communications and Foreign Affairs",
+    "Manager": "Ministry of Transport, Energy, Communications and Innovations",
     "Country": "Tuvalu"
   },
   ".tvs": {
@@ -8204,13 +8210,13 @@
   ".weather": {
     "Domain": ".weather",
     "Type": "generic",
-    "Manager": "International Business Machines Corporation",
+    "Manager": "The Weather Company, LLC",
     "Country": ""
   },
   ".weatherchannel": {
     "Domain": ".weatherchannel",
     "Type": "generic",
-    "Manager": "International Business Machines Corporation",
+    "Manager": "The Weather Company, LLC",
     "Country": ""
   },
   ".webcam": {
@@ -8318,7 +8324,7 @@
   ".wolterskluwer": {
     "Domain": ".wolterskluwer",
     "Type": "generic",
-    "Manager": "Wolters Kluwer N.V.",
+    "Manager": "Not assigned",
     "Country": ""
   },
   ".woodside": {
@@ -8390,7 +8396,7 @@
   ".xihuan": {
     "Domain": ".xihuan",
     "Type": "generic",
-    "Manager": "QIHOO 360 TECHNOLOGY CO. LTD.",
+    "Manager": "Beijing Qihu Keji Co., Ltd.",
     "Country": ""
   },
   ".xin": {
@@ -8486,7 +8492,7 @@
   ".yun": {
     "Domain": ".yun",
     "Type": "generic",
-    "Manager": "QIHOO 360 TECHNOLOGY CO. LTD.",
+    "Manager": "Beijing Qihu Keji Co., Ltd.",
     "Country": ""
   },
   ".za": {
@@ -8891,6 +8897,12 @@
     "Manager": "Amazon Registry Services, Inc.",
     "Country": ""
   },
+  ".一号店": {
+    "Domain": ".一号店",
+    "Type": "generic",
+    "Manager": "Not assigned",
+    "Country": ""
+  },
   ".世界": {
     "Domain": ".世界",
     "Type": "generic",
@@ -8918,7 +8930,7 @@
   ".中文网": {
     "Domain": ".中文网",
     "Type": "generic",
-    "Manager": "TLD REGISTRY LIMITED",
+    "Manager": "Beijing TLD Registry Technology Limited",
     "Country": ""
   },
   ".亚马逊": {
@@ -9014,7 +9026,7 @@
   ".在线": {
     "Domain": ".在线",
     "Type": "generic",
-    "Manager": "Beijing Tld Registry Technology Limited",
+    "Manager": "Beijing TLD Registry Technology Limited",
     "Country": ""
   },
   ".大众汽车": {
@@ -9452,7 +9464,7 @@
   "‏.سورية‎": {
     "Domain": "‏.سورية‎",
     "Type": "country-code",
-    "Manager": "National Agency for Network Services (NANS)",
+    "Manager": "National Authority for Information Technology Services (NAITS)",
     "Country": ""
   },
   "‏.شبكة‎": {
