@@ -380,7 +380,7 @@
   ".aol": {
     "Domain": ".aol",
     "Type": "generic",
-    "Manager": "Yahoo Inc.",
+    "Manager": "AOL Media LLC",
     "Country": ""
   },
   ".apartments": {
@@ -1544,7 +1544,7 @@
   ".circle": {
     "Domain": ".circle",
     "Type": "generic",
-    "Manager": "Amazon Registry Services, Inc.",
+    "Manager": "Jolly Host, LLC",
     "Country": ""
   },
   ".cisco": {
@@ -3242,7 +3242,7 @@
   ".got": {
     "Domain": ".got",
     "Type": "generic",
-    "Manager": "Amazon Registry Services, Inc.",
+    "Manager": "Jolly Host, LLC",
     "Country": ""
   },
   ".gov": {
@@ -4052,7 +4052,7 @@
   ".jot": {
     "Domain": ".jot",
     "Type": "generic",
-    "Manager": "Amazon Registry Services, Inc.",
+    "Manager": "Jolly Host, LLC",
     "Country": ""
   },
   ".joy": {
