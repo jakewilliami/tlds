@@ -55,8 +55,9 @@ const (
 
 Compile:
 ```bash
-$ ./build.sh    # All-in-one build script, including updating generated const file
-$ go build -o ./tldinfo cmd/tldinfo/main.go  # Or build it into a binary
+$ just gen    # Update generated const file
+$ just build  # Build tldinfo command-line tool into binary
+$ go build -o ./tldinfo cmd/tldinfo/main.go  # Or build it into a binary manually
 ```
 
 Run:
