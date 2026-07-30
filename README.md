@@ -66,6 +66,20 @@ $ ./tldinfo jp  # or ./tldinfo .jp
 $ ./tldinfo -h  # help command coming soon™!
 ```
 
+### Rust Library
+
+You can also use the Rust library in [`rust/`](./rust/).  This is generated from [`data/tlds.json`](./data/tlds.json).
+
+```rust
+use tlds;
+
+fn main() {
+    let tld = tlds::lookup(".jp").unwrap();
+    let country = tld.country;
+    println!("{country}");  // Japan
+}
+```
+
 ## Similar Projects
 
 This library/CLI is **not** a top-level domain parser.  For parsers, see [`github.com/jpillora/go-tld`](https://github.com/jpillora/go-tld)/[`golang.org/x/net/publicsuffix`](https://pkg.go.dev/golang.org/x/net/publicsuffix)/[`github.com/bobesa/go-domain-util`](https://github.com/bobesa/go-domain-util).

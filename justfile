@@ -29,6 +29,8 @@ go_build := go + " build " + env_var_or_default("GO_FLAGS", "")
 # Generate data
 gen:
     go generate
+    @echo "[TODO] Check Rust library version"
+    @sed -i.bak '/^version = /s/$/ # Update this?/' rust/Cargo.toml && rm -f rust/Cargo.toml.bak
 
 # Build the project and write the resulting binary to the "bin/" directory
 build: build-core
